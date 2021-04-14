@@ -2,6 +2,12 @@ html {
 	background-color: #bebebe;
 }
 
+.container {
+  width: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
 img {
   display: block;
   margin-left: auto;
@@ -40,6 +46,7 @@ a {
 
 a:hover {
 	background-color: #000;
+	text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #FA8072, 0 0 40px #FA8072, 0 0 50px #FA8072, 0 0 60px #FA8072, 0 0 70px #FA8072;
 }
 
 h1 {
@@ -102,6 +109,58 @@ iframe {
   margin-right: auto;
 }
 
-section {
-	float: right;
+#contact {
+	margin: 2px auto;
+	margin-top: 10px;
 }
+
+#education {
+	margin: 2px auto;
+	margin-top: 10px;
+}
+
+#skills {
+	margin: 2px auto;
+	margin-top: 10px;
+}
+
+#hobbies {
+	margin: 2px auto;
+	margin-top: 10px;
+}
+
+
+#about {
+	float: left;
+	width: 25%;
+	margin: 0 6% 0 0;
+}
+
+#origins {
+	float: right;
+	width: 25%;
+	margin: 0 6% 0 0;
+}
+
+#koi {
+	float: right;
+	width: 40%;
+	margin: 0 5%;
+}
+
+#david {
+	float: left;
+	width: 40%;
+	margin: 0 5%;
+}
+
+#video {
+	padding: 5%
+}
+
+#examples {
+	position: relative;
+    display: inline-block;
+	margin: 5%;
+}
+
